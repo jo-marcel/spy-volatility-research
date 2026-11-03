@@ -43,10 +43,7 @@ main.py
 
 config.py                -> shared paths and settings
 run_steps.py             -> educational walkthrough
-analysis.py              -> compatibility entrypoint
 ```
-
-Each file has a short docstring and straightforward functions. You can read them in the order above.
 
 ## Key results
 

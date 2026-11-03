@@ -29,7 +29,7 @@ def main():
     print("Corrélation:", round(correlation, 4))
     print("\nRésultats sur 2023-2025:")
     print(scores[scores["period"] == "2023-2025"].to_string(index=False))
-    print("\n9 graphiques dans figures/ ; tableaux dans results/")
+    print("\n9 graphics in  figures/ ; Arrays in  results/")
 
 
 if __name__ == "__main__":

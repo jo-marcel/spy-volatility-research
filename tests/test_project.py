@@ -1,4 +1,3 @@
-"""Petits tests compréhensibles, sans pytest."""
 import unittest
 import numpy as np
 from data_loader import load_prices
@@ -12,9 +11,9 @@ class ProjectTests(unittest.TestCase):
         prices = load_prices()
         short = add_features(prices.iloc[:100])
         long = add_features(prices)
-        # Le dernier jour de la version courte ne connaît pas sa cible.
+        
         self.assertTrue(np.isnan(short["next_day_abs_return"].iloc[-1]))
-        # La volatilité de cette date reste identique quand on ajoute le futur.
+       
         self.assertAlmostEqual(short["volatility_20d"].iloc[-1],
                                long["volatility_20d"].iloc[99])
 

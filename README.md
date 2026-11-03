@@ -84,8 +84,8 @@ All errors are in fractional log-return units. Multiply by 100 for percentage po
 
 ## Teaching materials
 
-- `Guide_FR.md`: **start here**, each module explained with its inputs, outputs and mathematics.
-- `research_report.pdf`: scientific report .
+- `Guide.md`: **start here**, each module explained with its inputs, outputs and mathematics.
+- `docs/research_report.pdf`: scientific report .
 
 ## Data
 
